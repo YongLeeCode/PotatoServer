@@ -9,7 +9,7 @@ const router = express.Router();
 
 const validateCredential = [
   body('mainText').trim().isLength({min: 3}).withMessage('Sould be at least 3 characters'),
-  body('title').trim().isLength({min: 3}).withMessage('Sould be at least 3 characters'),
+  body('title').trim().isLength({min: 2}).withMessage('Sould be at least 2 characters'),
   validate,
 ];
 

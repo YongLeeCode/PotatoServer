@@ -65,14 +65,14 @@ export async function email(req, res, next) {
   setTimeout(() => {
     number = undefined;
   }, 300000);
-  return res.status(200).json({message: `opt sent`});
+  return res.status(200).json({message: `Verification code sent`});
 }
 export async function check(req, res, next) {
   const code = req.params.code;
   if (number == code){
-    return res.status(200).json({message: "code matched"});
+    return res.status(200).json({message: "Code matched"});
   }
   else{
-    return res.status(401).json({message: `code is not matched`});
+    return res.status(401).json({message: `Code is not matched`});
   }
 }
