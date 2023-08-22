@@ -64,7 +64,6 @@ export async function create(body,userId) {
     text: body.text,
     reply: body.reply,
     like: body.like,
-    comments: body.comments,
     userId // userId : userId
   }).save();
 }
