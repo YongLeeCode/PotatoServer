@@ -140,14 +140,14 @@ FN:7,initDb
 FN:18,useVirtualId
 FN:19,(anonymous_2)
 FN:26,getPosts
-FN:34,getCourses
+FN:34,getCourse
 FNF:5
 FNH:1
 FNDA:0,initDb
 FNDA:2,useVirtualId
 FNDA:0,(anonymous_2)
 FNDA:0,getPosts
-FNDA:0,getCourses
+FNDA:0,getCourse
 DA:8,0
 DA:19,2
 DA:20,0
